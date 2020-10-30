@@ -17,6 +17,9 @@ return [
 
     'default' => env('DB_CONNECTION', 'mysql'),
 
+
+
+
     /*
     |--------------------------------------------------------------------------
     | Database Connections
@@ -34,6 +37,8 @@ return [
     */
 
     'connections' => [
+
+
 
         'sqlite' => [
             'driver' => 'sqlite',
