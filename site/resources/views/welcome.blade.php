@@ -3,6 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+  crossorigin="anonymous">
+  <style>
 
   <title>Among Us Lobby</title>
 
@@ -52,9 +58,10 @@
     <div class="col-md-4"></div>
     <div class="col-md-4">
       <!-- <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block" > -->
-        <a href="http://amongus/login" class="text-sm text-gray-700">Login</a>
 
-        <a href="http://amongus/register" class="ml-4 text-sm text-gray-700">Register</a>
+
+        <button type="button" class="btn btn-primary btn-lg btn-block" button onclick=location.href="http://amongus/login">login</button>
+        <button type="button" class="btn btn-secondary btn-lg btn-block" button onclick=location.href="http://amongus/register">register</button>
       </div>
 
     <div class="col-md-4"></div>
