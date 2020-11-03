@@ -2,7 +2,7 @@
 
 function getLobby() {
 
-$lobbyTableLength = count();
+$lobbyTableLength = null;
 
   function writeRow() {
     echo
@@ -17,11 +17,11 @@ $lobbyTableLength = count();
     ";
   };
 
-  while() {
-
-
-  };
-
+  // while() {
+  //
+  //
+  // };
+ writerow();
 
 };
 

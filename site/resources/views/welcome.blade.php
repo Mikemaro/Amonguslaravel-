@@ -78,7 +78,8 @@
       <div class="col-md-2">Imposters</div>
       <?php
       // backend form here for registration
-      include "C:\Users\iKits\Documents\Amonguslaravel\site\public\lobbyCode.php";
+      // include "C:\Users\iKits\Documents\Amonguslaravel\site\public\lobbyCode.php";
+      include "lobbyCode.php";
       getLobby();
 
 
