@@ -15,6 +15,11 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+<<<<<<< HEAD
+=======
+
+                    <h1>{{$username}}</h1>
+>>>>>>> parent of b494cf7... Update home.blade.php
                 </div>
             </div>
         </div>
