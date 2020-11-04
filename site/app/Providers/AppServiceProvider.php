@@ -17,12 +17,13 @@ class AppServiceProvider extends ServiceProvider
     }
 
     /**
-     * Bootstrap any application services.
+     * Bootstrap any application services. HOW MANY TIMES DO I HAVE TO TELL YOU ROXAS YOU TRIP ASS BITCH
      *
      * @return void
      */
     public function boot()
     {
         //
+        
     }
 }
