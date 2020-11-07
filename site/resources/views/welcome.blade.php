@@ -67,8 +67,8 @@
 
     </div>
   </div>
-  <div class="container">
-    <div class="row" style="margin-top: 40px;">
+  <div class="container" style = "margin-top: 100px;">
+    <div class="row" >
       <!-- form html here -->
       <div class="col-md-2">Region</div>
       <div class="col-md-2">Language</div>
@@ -78,7 +78,6 @@
       <div class="col-md-2">Imposters</div>
       <?php
       // backend form here for registration
-      // include "C:\Users\iKits\Documents\Amonguslaravel\site\public\lobbyCode.php";
       include "lobbyCode.php";
       getLobby();
 
