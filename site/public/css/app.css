@@ -720,6 +720,8 @@ pre code {
   max-width: 100%;
 }
 
+
+
 .row-cols-1 > * {
   flex: 0 0 100%;
   max-width: 100%;
@@ -754,6 +756,13 @@ pre code {
   flex: 0 0 auto;
   width: auto;
   max-width: 100%;
+}
+
+.colborder {
+  border-style: solid;
+  border-width: 1px;
+  border-color:blue;
+  color:white;
 }
 
 .col-1 {
@@ -10902,4 +10911,3 @@ a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-
