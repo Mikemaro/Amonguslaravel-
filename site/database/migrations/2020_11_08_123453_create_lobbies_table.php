@@ -15,7 +15,7 @@ class CreateLobbiesTable extends Migration
     {
         Schema::create('lobbies', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('users_id');
+            $table->unsignedBigInteger('user_id');
             $table->string('title');
             $table->string('region');
             $table->string('language');
@@ -23,8 +23,9 @@ class CreateLobbiesTable extends Migration
             $table->string('map');
             $table->boolean('competitive');
             $table->integer('imposters');
+            $table->string('discord');
 
-            $table->index('users_id');
+            $table->index('user_id');
 
             $table->timestamps();
         });
