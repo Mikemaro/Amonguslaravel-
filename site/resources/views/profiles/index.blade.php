@@ -19,7 +19,7 @@
 
                     <br> {{$user->profile->usertitle}}
                     <br> {{$user->profile->description}}
-                    <br> {{$user->profile->url}}
+                    <br> {{$user->profile->url ?? 'N/A'}}
 
 
 

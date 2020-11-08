@@ -52,6 +52,7 @@
   </div>
 
   <div class="container" style = "margin-top: 20px;">
+    <div class="row"><a href="#">Make Lobby</a></div>
     <div class="row" >
       <!-- form html here -->
       <div class="col-md-2 colborder">Region</div>

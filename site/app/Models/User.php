@@ -41,8 +41,11 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    public function Lobby() {
+       return $this->hasMany(Lobby::class);
+    }
     public function profile() {
       return $this->hasOne(profile::class);
 
-    } 
+    }
 }
