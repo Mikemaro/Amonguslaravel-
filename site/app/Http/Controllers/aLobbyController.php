@@ -7,7 +7,13 @@ use Illuminate\Http\Request;
 class aLobbyController extends Controller
 {
     //
-    public function lobby() {
+    public function lobby()
+    {
       return view('posts.lobby');
+    }
+
+    public function store()
+    {
+      dd(request()->all());
     }
 }
