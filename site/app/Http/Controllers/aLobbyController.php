@@ -14,6 +14,17 @@ class aLobbyController extends Controller
 
     public function store()
     {
+      $data = request()->validate([
+        'title' => 'required',
+        'region' => 'required',
+        'language' => 'required',
+        'players' => ['required', 'integer'],
+        'map' => 'required',
+        'competitive' => 'required',
+        'imposter' => ['required', 'integer' ],
+
+
+      ]);
       dd(request()->all());
     }
 }
